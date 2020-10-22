@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Satisfy';
+    src : url('../fonts/Satisfy-Regular.ttf');
+}
+@font-face{
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-ExtraLightItalic.ttf');
+}
+@font-face{
+    font-family: 'Staalich';
+    src : url('../fonts/Staatliches-Regular.ttf')
+}
+body
+{
+    background-image: url("../images/legume.jpg");
+    background-attachment: fixed;
+}
+
+header{
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 150px;
+    font-family: Satisfy;
+    text-decoration: underline;
+    color: #F6D9C4;
+}
+
+nav{
+    font-size: 3em;
+    width: 350px;
+    text-align: justify;
+    border-left: solid ;
+    color: burlywood;
+    font-family: Staalich;
+    
+}
+ ul {
+     list-style: none;
+ }
+li:hover{ 
+    background-color:burlywood;
+    color: beige;
+}
+
+h2{
+    font-size: 2em;
+    background-color:#504F4F;
+    opacity: 0.5;
+    border-top-right-radius: 5em;
+    font-family:  Nunito;
+    color: aliceblue;
+}
+h2:hover{
+    background-color: #545454;
+    color: aliceblue;
+    opacity: 1.5;
+}
+
+#Contenaire{
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    width: 300px;
+    margin-bottom: 100px;
+    border-left: 2px black solid;
+    
+}
+
+p{
+    font-size: 1.75em;
+    font-family: Satisfy;
+    padding: 5px;
+    opacity: 0.5;
+    color: azure;
+}
+
+p:hover{
+    opacity: 1.5;
+}
+
+.element:nth-child(1){
+    order: 1;
+
+}
+.element:nth-child(2){
+    order: 2;
+
+}
+.element:nth-child(3){
+    order: 3;
+
+}
+.element:nth-child(4){
+    order: 4;
+
+}

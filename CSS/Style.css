@@ -1,0 +1,54 @@
+body
+{
+    background-image: url("../images/marbre.jpg");
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 5.0em;
+    font-family: antic, Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-top: 3px #737373 double;  
+    border-bottom: 3px #737373 double;
+    border-radius: 10px 10px 10px 10px;
+    color : #5F4025
+   
+}
+
+h2 {
+    font-size: 2.5em;
+    font-family: ArchitectDaugther, Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color:#5F4025
+}
+p
+{
+    font-size: 1.5em;
+    text-align: justify;
+    opacity: 0,7;
+
+    
+}
+
+@font-face {
+    font-family: 'AguafinaScript';
+    src : url('fonts/AguafinaScript-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'ArchitectDaugther';
+    src : url('fonts/ArchitectsDaughter.ttf');
+}
+@font-face{
+    font-family: 'antic';
+    src: url('fonts/AnticDidone-Regular.otf');
+}
+
+
+
+.imageflottante{
+    float: left;
+}
+.dessous{
+    clear: both;
+}
