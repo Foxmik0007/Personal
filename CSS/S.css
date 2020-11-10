@@ -27,17 +27,23 @@ header{
     color: #F6D9C4;
 }
 
-nav{
+nav {
+    padding: auto;
+    margin: auto;
     font-size: 3em;
-    width: 350px;
-    text-align: justify;
-    border-left: solid ;
+    width: fit-content;
+    text-align: center;
     color: burlywood;
     font-family: Staalich;
+    display: inline;
     
 }
- ul {
+ nav li {
+     display: inline;
      list-style: none;
+     width: 50%;
+     text-align: justify;
+
  }
 li:hover{ 
     background-color:burlywood;
@@ -58,9 +64,9 @@ h2:hover{
     opacity: 1.5;
 }
 
-#Contenaire{
+#Scroll{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 section{
